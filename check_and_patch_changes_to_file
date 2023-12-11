@@ -1,0 +1,47 @@
+// check difference
+git diff <"Working Doc/Discus Technical Guide/DataOps/DataOps process.md">
+
+// stage the changes in patches
+git add -p <"Working Doc/Discus Technical Guide/DataOps/DataOps process.md">
+
+// ========================================================================================================================================================
+//  options while patching
+// ========================================================================================================================================================
+ Stage this hunk [y,n,q,a,d,j,J,g,/,s,e,?]?
+
+y - Stage this hunk
+
+Stages the current hunk, meaning the changes will be included in the next commit.
+n - Do not stage this hunk
+
+Skips staging the current hunk, meaning the changes will not be included in the next commit.
+q - Quit; do not stage this hunk or any of the remaining hunks
+
+Exits the interactive patch mode without staging the current hunk or any remaining hunks.
+a - Stage this hunk and all later hunks in the file
+
+Stages the current hunk and all the remaining hunks in the file.
+d - Do not stage this hunk or any of the later hunks in the file
+
+Skips staging the current hunk and all the remaining hunks in the file.
+j - Leave this hunk undecided, see next undecided hunk
+
+Moves to the next undecided hunk without staging or skipping the current one.
+J - Leave this hunk undecided, do not show the next undecided hunk
+
+Similar to j, but does not display the next undecided hunk immediately.
+g - Select a hunk to go to
+
+Prompts you to enter the number of a hunk to jump to.
+/ - Search for a hunk matching the given regex
+
+Allows you to enter a regular expression to search for a specific hunk.
+s - Split the current hunk into smaller hunks
+
+Splits the current hunk into smaller parts, allowing you to interact with each smaller hunk individually.
+e - Manually edit the current hunk
+
+Opens the default text editor for you to manually edit the content of the current hunk.
+? - Help
+
+Displays a help message with a summary of the available options.
