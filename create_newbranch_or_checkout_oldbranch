@@ -1,0 +1,5 @@
+# check old out
+git checkout <branch>
+
+# create new branch
+git checkout -b <new_branch_name>
