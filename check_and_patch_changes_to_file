@@ -45,3 +45,14 @@ Opens the default text editor for you to manually edit the content of the curren
 ? - Help
 
 Displays a help message with a summary of the available options.
+
+
+// ========================================================================================================================================================
+// manually editing hunks
+// ========================================================================================================================================================
+https://chat.openai.com/share/3ea65975-3990-4f2e-b675-097bf3740911
+
+select e
+ctrl C twice to change mode to control the Vim
+:wq //save and quit 
+
