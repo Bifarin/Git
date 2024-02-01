@@ -1,0 +1,9 @@
+git diff -- cached
+command is used to show the differences between the files in your staging area (index) and your last commit.
+
+git show
+command is used to view the changes made in the most recent commit.
+
+clt z
+to stop git diff or git show
+
