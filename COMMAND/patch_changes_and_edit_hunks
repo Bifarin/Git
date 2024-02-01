@@ -7,3 +7,9 @@ command is used to view the changes made in the most recent commit.
 clt z
 to stop git diff or git show
 
+git reset --soft HEAD~1
+command is used to undo last unpushed commit
+
+git add -p <file_name?
+command is used to patch changes to be added to staging
+
