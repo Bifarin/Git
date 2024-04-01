@@ -1,0 +1,3 @@
+git merge --no-ff doc/itemmanager
+
+after which doc/itemanager will be behind
