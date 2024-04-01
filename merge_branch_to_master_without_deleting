@@ -1,6 +1,8 @@
 git checkout master  
+--run this for all branches that are ahead only... run for all branches before sync at once to Origin Master
 git merge --no-ff doc/itemmanager
 
+-- find a way of doing this programatically
 --after which doc/itemanager will be behind
 git checkout doc/itemanager
 git fetch origin master
