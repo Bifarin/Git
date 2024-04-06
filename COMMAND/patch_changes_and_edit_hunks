@@ -7,11 +7,24 @@ command is used to view the changes made in the most recent commit.
 clt z
 to stop git diff or git show
 
+-- command is used to undo last unpushed commit
 git reset --soft HEAD~1
-command is used to undo last unpushed commit
+
+-- list the historical commit message and hash
+git reflog
+
+--revert to a specific commit
+git reset --soft <commit_hash>
+
+
+
+
 
 git add -p <file_name?
 command is used to patch changes to be added to staging
+
+
+
 
 git commit -v
 command allows user to and commment and commit staged changes in command line. you can also view you changes inline
