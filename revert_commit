@@ -1,0 +1,8 @@
+-- command is used to undo last unpushed commit
+git reset --soft HEAD~1
+
+-- list the historical commit message and hash
+git reflog
+
+--revert to a specific commit
+git reset --soft <commit_hash>
