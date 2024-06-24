@@ -53,6 +53,7 @@ Displays a help message with a summary of the available options.
 https://chat.openai.com/share/3ea65975-3990-4f2e-b675-097bf3740911
 
 select e
-ctrl C twice to change mode to control the Vim
+ctrl C once to change mode to control the Vim
+Then press space bar twice. Edit should activate on the second press
 :wq //save and quit 
 
