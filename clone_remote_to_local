@@ -1,2 +1,4 @@
-git init
+// a directory higher that where you want it to seat
 git clone <https://github.com/BifarinNL/gbogberin-invest.git>
+
+// u now have to open the remo in the lower directory
