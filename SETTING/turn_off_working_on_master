@@ -1,0 +1,12 @@
+Go to your repository on GitHub.
+Click on "Settings" in the right sidebar.
+Navigate to "Branches" in the left sidebar.
+Under "Branch protection rules", click "Add rule".
+In the "Branch name pattern" field, enter main (or master if that's your main branch name).
+Check the following options:
+"Require a pull request before merging": This ensures that all changes must go through a pull request and review process.
+"Require approvals": Specify the minimum number of approving reviews required before a pull request can be merged. (Recommended: at least 1)
+"Dismiss stale pull request approvals when new commits are pushed": This keeps reviews relevant by requiring re-approval if changes are made after a review.
+"Require status checks to pass before merging": If you have automated tests or other checks set up, you can require them to pass before merging.
+"Include administrators": Enforces these rules even for repository administrators. This is highly recommended to ensure consistency and prevent accidental direct commits.
+Click "Create" to save the rule.
